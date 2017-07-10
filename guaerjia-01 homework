@@ -1,0 +1,136 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# @author: Guaerjia
+
+# For beginner
+# 1. variable - num,str,boolean
+# 2. if
+# 3. > < >= <= == 
+# 4. print
+
+def main():
+
+  who = '瓜尔佳的老妈 '
+
+  good_price = 6  #小贩的价格
+
+  good_description = "西双版纳大白菜" #小贩的招牌
+
+
+
+  is_cheap = False #是否便宜
+
+  reasonable_price = 5 #老妈能接受的最高价格
+
+  buy_amount = 2 #准备买 2 斤
+
+
+
+  # 开始你的表演
+
+  # go 我们来走一组
+
+  print "%s上街看到了%s，卖 %d 元/斤" % (who, good_description, good_price)
+
+
+
+  if good_price <= reasonable_price:
+
+    print '她认为便宜'
+
+    is_cheap = True
+
+    print '她买了 %d 斤' % (buy_amount)
+
+  else:
+
+    print '她认为贵了 '
+
+    is_cheap = False
+
+    print '她并没有买，扬长而去'
+
+
+
+
+# run function
+
+if __name__ == '__main__':
+
+  main()
+
+#如果要让老妈买 2 斤大白菜而不是扬长而去，修改哪几个地方可以达到目的？（修改，并跑通） 
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# @author: Guaerjia
+
+# For beginner
+# 1. variable - num,str,boolean
+# 2. if
+# 3. > < >= <= == 
+# 4. print
+
+def main():
+
+  who = '瓜尔佳的老妈 '
+
+  good_price = 3  #小贩的价格
+
+  good_description = "西双版纳大白菜" #小贩的招牌
+
+
+
+  is_cheap = True #是否便宜
+
+  reasonable_price = 6 #老妈能接受的最高价格
+
+  buy_amount = 2 #准备买 2 斤
+
+
+
+  # 开始你的表演
+
+  # go 我们来走一组
+
+  print "%s上街看到了%s，卖 %d 元/斤" % (who, good_description, good_price)
+
+
+
+  if good_price <= reasonable_price:
+
+    print '她认为便宜'
+
+    is_cheap = True
+
+    print '她买了 %d 斤' % (buy_amount)
+
+  else:
+
+    print '她认为贵了 '
+
+    is_cheap = False
+
+    print '她并没有买，扬长而去'
+
+
+
+
+# run function
+
+if __name__ == '__main__':
+
+  main()
+
+what's the meaning of 'number', 'string', 'boolean' in python?
+number表示数值；
+boolean表示True 和 False
+string是用于定义字符串的
+
+try to describe the meaning of 'if' statement in your mind?
+If用于添加限定条件
+
+Why we need > < == >= <= ...etc...?
+大于、小于、等于、大于等于、小于等于，这些符号是用来表示数值之间的大小关系从而进行下一步运算。
+
+
+
